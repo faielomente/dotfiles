@@ -4,8 +4,8 @@
 # Setup Homebrew and install packages
 # -----------------------------------------------
 
-./Development/mac-setup/dotfiles/brew.sh
-./Development/mac-setup/dotfiles/brew-cask.sh
+./brew.sh
+./brew-cask.sh
 
 # -----------------------------------------------
 # Setup oh-my-zsh

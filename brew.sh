@@ -4,7 +4,7 @@
 # Install Homebrew
 # -----------------------------------------------
 
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # Make sure we're using the latest Homebrew
 brew update
@@ -33,9 +33,9 @@ brew install gnu-sed --with-default-names
 brew install wget --with-iri
 
 # Install more recent versions of some macOS tools
-brew install vim --with-override-system-vi
-brew install homebrew/dupes/grep
-brew install homebrew/dupes/openssh
+brew install vim
+brew install grep
+brew install openssh
 
 # zsh
 brew install zsh
@@ -49,7 +49,7 @@ brew install postgresql
 brew install redis
 
 # Development
-brew install simplehttp2server
+brew install pyenv
 brew install nginx
 
 # -----------------------------------------------
