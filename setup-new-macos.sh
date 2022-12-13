@@ -5,6 +5,10 @@
 # -----------------------------------------------
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
+# Necessary for M1 chip apple machines
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.bashrc
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zshrc
+
 ./brew.sh
 ./brew-cask.sh
 
